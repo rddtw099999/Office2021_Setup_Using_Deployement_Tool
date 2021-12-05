@@ -117,19 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 68</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Button3.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="PictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>troubleshoot</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PictureBox4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
   </data>
   <data name="Label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -146,14 +156,20 @@
   <data name="&gt;&gt;Label10.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;Label10.Name" xml:space="preserve">
+    <value>Label10</value>
+  </data>
+  <data name="Label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;PictureBox5.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Btn_Back.Name" xml:space="preserve">
     <value>Btn_Back</value>
   </data>
-  <data name="&gt;&gt;Label10.Name" xml:space="preserve">
-    <value>Label10</value>
+  <data name="&gt;&gt;Btn_Exit.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;Label4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -161,10 +177,6 @@
   <data name="&gt;&gt;Btn_Uninstaller.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Button2.Font" type="System.Drawing.Font, System.Drawing">
     <value>微軟正黑體 Light, 12pt</value>
   </data>
@@ -192,11 +204,14 @@
   <data name="&gt;&gt;Btn_Uninstaller.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>734, 545</value>
   </data>
-  <data name="Label10.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體 Light, 32pt</value>
+  </data>
+  <data name="Btn_DotNetFixUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 305</value>
   </data>
   <data name="Label3.Text" xml:space="preserve">
     <value>Step2</value>
@@ -219,17 +234,14 @@
   <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
     <value>123, 411</value>
   </data>
-  <data name="&gt;&gt;Button2.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="Label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="PictureBox4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;PictureBox5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
   </data>
   <data name="&gt;&gt;Label1.Name" xml:space="preserve">
     <value>Label1</value>
@@ -545,9 +557,6 @@
         //////////////////////////////////////////////////8=
 </value>
   </data>
-  <data name="&gt;&gt;PictureBox1.Name" xml:space="preserve">
-    <value>PictureBox1</value>
-  </data>
   <data name="Label8.Text" xml:space="preserve">
     <value>Use the tools below and give it a try</value>
   </data>
@@ -563,17 +572,17 @@
   <data name="&gt;&gt;PictureBox3.Name" xml:space="preserve">
     <value>PictureBox3</value>
   </data>
-  <data name="Label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Button3.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;Label4.Name" xml:space="preserve">
     <value>Label4</value>
   </data>
-  <data name="&gt;&gt;Btn_Exit.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="PictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 68</value>
   </data>
   <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
     <value>434, 39</value>
@@ -590,8 +599,14 @@
   <data name="PictureBox6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
   </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Troubleshooting</value>
+  </data>
   <data name="&gt;&gt;Label10.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>Still have problems ?</value>
   </data>
   <data name="PictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -605,26 +620,17 @@
   <data name="&gt;&gt;Button2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;PictureBox3.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
   <data name="PictureBox6.TabIndex" type="System.Int32, mscorlib">
     <value>52</value>
   </data>
   <data name="&gt;&gt;Btn_DotNetFixUp.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
-    <value>Label6</value>
-  </data>
   <data name="&gt;&gt;Btn_Exit.Name" xml:space="preserve">
     <value>Btn_Exit</value>
   </data>
   <data name="Label10.Font" type="System.Drawing.Font, System.Drawing">
     <value>微軟正黑體 Light, 12pt</value>
-  </data>
-  <data name="PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 560</value>
   </data>
   <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -656,9 +662,6 @@
   <data name="&gt;&gt;Label6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Btn_DotNetFixUp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;Button3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -668,23 +671,17 @@
   <data name="Label1.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
-  <data name="Label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;Btn_DotNetFixUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;PictureBox6.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
   </data>
   <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>123, 176</value>
   </data>
   <data name="Label2.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
-  </data>
-  <data name="Label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="Label6.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -695,8 +692,8 @@
   <data name="&gt;&gt;PictureBox4.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Label10.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;Label9.Parent" xml:space="preserve">
     <value>$this</value>
@@ -943,11 +940,17 @@
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
+  <data name="Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;PictureBox1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>284, 36</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Button3.Text" xml:space="preserve">
     <value>Back</value>
@@ -964,17 +967,14 @@
   <data name="Label7.Text" xml:space="preserve">
     <value>Reboot the system and try again.</value>
   </data>
-  <data name="Label9.Text" xml:space="preserve">
-    <value>Still have problems ?</value>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;PictureBox2.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="PictureBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 85</value>
-  </data>
-  <data name="PictureBox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;Label9.Name" xml:space="preserve">
     <value>Label9</value>
@@ -985,8 +985,8 @@
   <data name="PictureBox5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
   </data>
-  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
   </data>
   <data name="&gt;&gt;Button1.Name" xml:space="preserve">
     <value>Button1</value>
@@ -1003,14 +1003,11 @@
   <data name="&gt;&gt;Label7.Name" xml:space="preserve">
     <value>Label7</value>
   </data>
-  <data name="PictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
+  <data name="&gt;&gt;Btn_Exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Btn_Uninstaller.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
-  </data>
-  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>225, 109</value>
   </data>
   <data name="PictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1165,8 +1162,8 @@
   <data name="Label9.Font" type="System.Drawing.Font, System.Drawing">
     <value>微軟正黑體 Light, 21.75pt</value>
   </data>
-  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="Btn_Back.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
   </data>
   <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1182,8 +1179,11 @@
 (02)2771-2171 Ext. 3200 or 3295
 </value>
   </data>
-  <data name="Label2.Text" xml:space="preserve">
-    <value>Step1</value>
+  <data name="PictureBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;Button2.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;PictureBox4.Name" xml:space="preserve">
     <value>PictureBox4</value>
@@ -1200,8 +1200,8 @@
   <data name="Button2.Text" xml:space="preserve">
     <value>.Net Repair Tool</value>
   </data>
-  <data name="PictureBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
+  <data name="PictureBox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="Button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -1239,8 +1239,8 @@
   <data name="&gt;&gt;Button3.Name" xml:space="preserve">
     <value>Button3</value>
   </data>
-  <data name="PictureBox5.TabIndex" type="System.Int32, mscorlib">
-    <value>51</value>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
   </data>
   <data name="PictureBox3.TabIndex" type="System.Int32, mscorlib">
     <value>54</value>
@@ -1251,17 +1251,14 @@
   <data name="Label5.Font" type="System.Drawing.Font, System.Drawing">
     <value>微軟正黑體 Light, 21.75pt</value>
   </data>
-  <data name="Label1.Text" xml:space="preserve">
-    <value>Troubleshooting</value>
+  <data name="Button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="Btn_Exit.TabIndex" type="System.Int32, mscorlib">
     <value>52</value>
   </data>
-  <data name="&gt;&gt;Button3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="PictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="&gt;&gt;Label5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1278,8 +1275,8 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>386, 68</value>
+  <data name="PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 560</value>
   </data>
   <data name="&gt;&gt;PictureBox3.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1302,11 +1299,11 @@
   <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
     <value>225, 255</value>
   </data>
-  <data name="PictureBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 68</value>
+  <data name="&gt;&gt;PictureBox1.Name" xml:space="preserve">
+    <value>PictureBox1</value>
   </data>
-  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
-    <value>15</value>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 109</value>
   </data>
   <data name="&gt;&gt;Label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1314,14 +1311,14 @@
   <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;PictureBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="Label10.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
   </data>
   <data name="&gt;&gt;PictureBox6.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -1332,8 +1329,8 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 12</value>
   </data>
-  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微軟正黑體 Light, 32pt</value>
+  <data name="PictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;Btn_Uninstaller.Name" xml:space="preserve">
     <value>Btn_Uninstaller</value>
@@ -1536,14 +1533,17 @@
   <data name="Label4.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
   </data>
-  <data name="Btn_DotNetFixUp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>324, 305</value>
+  <data name="&gt;&gt;Label10.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="Button1.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
   </data>
   <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
     <value>微軟正黑體 Light, 12pt</value>
+  </data>
+  <data name="Button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 473</value>
   </data>
   <data name="Label9.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -1554,11 +1554,14 @@
   <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>734, 545</value>
+  <data name="PictureBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
   </data>
-  <data name="&gt;&gt;Btn_Exit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Step1</value>
   </data>
   <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
     <value>225, 189</value>
@@ -1575,8 +1578,8 @@
   <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>89, 36</value>
   </data>
-  <data name="PictureBox4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
+  <data name="&gt;&gt;PictureBox3.ZOrder" xml:space="preserve">
+    <value>17</value>
   </data>
   <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>89, 36</value>
@@ -1584,17 +1587,14 @@
   <data name="Button1.Text" xml:space="preserve">
     <value>Uninstal Helper</value>
   </data>
-  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
   <data name="PictureBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>-2, 67</value>
   </data>
   <data name="&gt;&gt;Btn_Back.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="Button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>586, 473</value>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
     <value>微軟正黑體 Light, 21.75pt</value>
@@ -1605,14 +1605,14 @@
   <data name="&gt;&gt;Label8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="Label10.Location" type="System.Drawing.Point, System.Drawing">
     <value>413, 411</value>
   </data>
-  <data name="Btn_Back.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="Label6.Text" xml:space="preserve">
     <value>Please make sure you have already uninstalled any previous version of Microsoft Office.</value>
@@ -1620,11 +1620,11 @@
   <data name="PictureBox5.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 10</value>
   </data>
-  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
+  <data name="&gt;&gt;PictureBox6.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
+  <data name="Label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
     <value>$this</value>

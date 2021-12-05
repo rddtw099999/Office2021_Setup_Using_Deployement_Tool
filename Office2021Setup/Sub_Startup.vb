@@ -25,9 +25,7 @@ Public Class Sub_Startup
 
     End Sub
 
-
     Private Sub Startup_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
 
         '=================  registry key check ==============
         Dim Reg As RegistryKey
@@ -37,8 +35,6 @@ Public Class Sub_Startup
             Label6.Visible = True
         End If
         ' ==========================================================
-
-
 
     End Sub
 
@@ -68,4 +64,9 @@ Public Class Sub_Startup
     Private Sub Btn_exit_Click(sender As Object, e As EventArgs) Handles Btn_exit.Click
         Close()
     End Sub
+
+    Private Sub Sub_Startup_MouseDown(sender As Object, e As MouseEventArgs) Handles MyBase.MouseDown
+        ' MsgBox(e.X.ToString() + ", " + e.Y.ToString())
+    End Sub
+
 End Class
