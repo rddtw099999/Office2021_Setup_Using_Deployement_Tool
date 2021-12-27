@@ -117,34 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>204, 175</value>
-  </data>
-  <data name="Button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 50</value>
-  </data>
   <data name="Button2.Text" xml:space="preserve">
     <value>仍要安裝</value>
   </data>
-  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>326, 175</value>
-  </data>
-  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 50</value>
-  </data>
   <data name="Button1.Text" xml:space="preserve">
-    <value>啟動解除安裝程式</value>
-  </data>
-  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>103, 53</value>
-  </data>
-  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>411, 119</value>
+    <value>解除安裝</value>
   </data>
   <data name="Label1.Text" xml:space="preserve">
-    <value>我們發現您已經安裝其他版本的Office，您必須先解除安裝它們，才能夠繼續安裝Office 2019 ，您要先執行解除安裝程式嗎？</value>
+    <value>安裝程式發現先前版本的 Office 已經安裝在系統中，建議在安裝之前先解除安裝舊版的Office</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAQEAAAAAAIAAoQgAAFgAAACgAAABAAAAAgAAAAAEAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA

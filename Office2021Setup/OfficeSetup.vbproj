@@ -159,22 +159,10 @@
     <EmbeddedResource Include="_Dialogue.resx">
       <DependentUpon>_Dialogue.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="_Dialogue.zh-Hant.resx">
-      <DependentUpon>_Dialogue.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main_Installer.eo.resx">
-      <DependentUpon>Main_Installer.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Main_Installer.resx">
       <DependentUpon>Main_Installer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main_Installer.zh-CHT.resx">
-      <DependentUpon>Main_Installer.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Main_Installer.zh-Hant.resx">
-      <DependentUpon>Main_Installer.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main_Installer.zh-tw.resx">
       <DependentUpon>Main_Installer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -186,16 +174,7 @@
     <EmbeddedResource Include="Sub_Startup.resx">
       <DependentUpon>Sub_Startup.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sub_Startup.zh-Hans.resx">
-      <DependentUpon>Sub_Startup.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Sub_Startup.zh-Hant.resx">
-      <DependentUpon>Sub_Startup.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Sub_Startup.zh-tw.resx">
-      <DependentUpon>Sub_Startup.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Sub_Startup.zh.resx">
       <DependentUpon>Sub_Startup.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sub_Troubleshoot.resx">
@@ -204,10 +183,7 @@
     <EmbeddedResource Include="Sub_Troubleshoot.zh-Hant.resx">
       <DependentUpon>Sub_Troubleshoot.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sub_Troubleshoot.zh-tw.resx">
-      <DependentUpon>Sub_Troubleshoot.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="_Dialogue.zh-TW.resx">
+    <EmbeddedResource Include="_Dialogue.zh-Hant.resx">
       <DependentUpon>_Dialogue.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
