@@ -114,37 +114,38 @@ Partial Class Sub_Troubleshoot
         '
         'Btn_Back
         '
-        resources.ApplyResources(Me.Btn_Back, "Btn_Back")
+        Me.Btn_Back.AllowDrop = True
         Me.Btn_Back.BackColor = System.Drawing.Color.FromArgb(CType(CType(87, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(111, Byte), Integer))
+        resources.ApplyResources(Me.Btn_Back, "Btn_Back")
         Me.Btn_Back.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Btn_Back.Name = "Btn_Back"
         Me.Btn_Back.UseVisualStyleBackColor = False
         '
         'PictureBox4
         '
-        resources.ApplyResources(Me.PictureBox4, "PictureBox4")
         Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
+        resources.ApplyResources(Me.PictureBox4, "PictureBox4")
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.TabStop = False
         '
         'PictureBox1
         '
-        resources.ApplyResources(Me.PictureBox1, "PictureBox1")
         Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
+        resources.ApplyResources(Me.PictureBox1, "PictureBox1")
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.TabStop = False
         '
         'Btn_Exit
         '
-        resources.ApplyResources(Me.Btn_Exit, "Btn_Exit")
         Me.Btn_Exit.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
+        resources.ApplyResources(Me.Btn_Exit, "Btn_Exit")
         Me.Btn_Exit.Name = "Btn_Exit"
         Me.Btn_Exit.TabStop = False
         '
         'PictureBox5
         '
-        resources.ApplyResources(Me.PictureBox5, "PictureBox5")
         Me.PictureBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
+        resources.ApplyResources(Me.PictureBox5, "PictureBox5")
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.TabStop = False
         '
@@ -156,8 +157,8 @@ Partial Class Sub_Troubleshoot
         '
         'PictureBox2
         '
-        resources.ApplyResources(Me.PictureBox2, "PictureBox2")
         Me.PictureBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
+        resources.ApplyResources(Me.PictureBox2, "PictureBox2")
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.TabStop = False
         '

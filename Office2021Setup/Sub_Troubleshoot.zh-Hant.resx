@@ -119,61 +119,70 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 17</value>
+    <value>119, 21</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 54</value>
+    <value>246, 69</value>
   </data>
   <data name="Label1.Text" xml:space="preserve">
     <value>疑難排解</value>
   </data>
   <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 105</value>
+    <value>151, 131</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 47</value>
   </data>
   <data name="Label2.Text" xml:space="preserve">
     <value>方法1</value>
   </data>
   <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 171</value>
+    <value>151, 214</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 47</value>
   </data>
   <data name="Label3.Text" xml:space="preserve">
     <value>方法2</value>
   </data>
   <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 241</value>
+    <value>151, 301</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 47</value>
   </data>
   <data name="Label4.Text" xml:space="preserve">
     <value>方法3</value>
   </data>
   <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>290, 31</value>
+    <value>387, 39</value>
   </data>
   <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>314, 36</value>
+    <value>399, 47</value>
   </data>
   <data name="Label5.Text" xml:space="preserve">
     <value>安裝 Office 時發生錯誤</value>
   </data>
   <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>208, 118</value>
+    <value>277, 148</value>
   </data>
   <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>505, 63</value>
+    <value>673, 79</value>
   </data>
   <data name="Label6.Text" xml:space="preserve">
     <value>請確認移除Office 2021 以外版本之Office後，再次嘗試安裝</value>
   </data>
   <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>208, 184</value>
+    <value>277, 230</value>
   </data>
   <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>336, 99</value>
+    <value>448, 124</value>
   </data>
   <data name="Label7.Text" xml:space="preserve">
     <value>重新啟動系統後，再次安裝</value>
   </data>
   <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>208, 254</value>
+    <value>277, 318</value>
   </data>
   <data name="Label8.Text" xml:space="preserve">
     <value>使用下列工具後，再次嘗試安裝</value>
@@ -189,7 +198,7 @@
     <value>NoControl</value>
   </data>
   <data name="Btn_Uninstaller.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 48</value>
+    <value>168, 60</value>
   </data>
   <data name="Btn_Uninstaller.Text" xml:space="preserve">
     <value>Uninstaller</value>
@@ -204,25 +213,25 @@
     <value>NoControl</value>
   </data>
   <data name="Btn_DotNetFixUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 48</value>
+    <value>173, 60</value>
   </data>
   <data name="Btn_DotNetFixUp.Text" xml:space="preserve">
     <value>.Net Fixup</value>
   </data>
   <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 393</value>
+    <value>151, 491</value>
   </data>
   <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 36</value>
+    <value>259, 47</value>
   </data>
   <data name="Label9.Text" xml:space="preserve">
     <value>仍然有問題嗎?</value>
   </data>
   <data name="Label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 406</value>
+    <value>427, 508</value>
   </data>
   <data name="Label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 34</value>
+    <value>667, 42</value>
   </data>
   <data name="Label10.Text" xml:space="preserve">
     <value>撥打分機 #3200 or 3295 或前往計算機與網路中心</value>
@@ -233,14 +242,17 @@
   <data name="Btn_Back.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="Btn_Back.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 565</value>
+  </data>
   <data name="Btn_Back.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 50</value>
+    <value>160, 62</value>
   </data>
   <data name="Btn_Back.Text" xml:space="preserve">
     <value>返回</value>
   </data>
   <data name="PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, 465</value>
+    <value>-3, 581</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="PictureBox1.TabIndex" type="System.Int32, mscorlib">
@@ -432,11 +444,11 @@
   <data name="Btn_Exit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="Btn_Exit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
+  <data name="Btn_Exit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 602</value>
   </data>
-  <data name="Btn_Exit.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
+  <data name="Btn_Exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 38</value>
   </data>
   <data name="PictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -807,7 +819,7 @@
 </value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>727, 527</value>
+    <value>969, 659</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1095,5 +1107,8 @@
         ////////////////////////////////////////////////////////////////////////////////
         //////////////////////////////////////////////////8=
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
 </root>
