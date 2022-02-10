@@ -169,27 +169,27 @@ Partial Class Main_Installer
         '
         'Btn_Install
         '
-        resources.ApplyResources(Me.Btn_Install, "Btn_Install")
         Me.Btn_Install.BackColor = System.Drawing.Color.FromArgb(CType(CType(87, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(111, Byte), Integer))
+        resources.ApplyResources(Me.Btn_Install, "Btn_Install")
         Me.Btn_Install.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Btn_Install.Name = "Btn_Install"
         Me.Btn_Install.UseVisualStyleBackColor = False
         '
         'GroupBox1
         '
-        resources.ApplyResources(Me.GroupBox1, "GroupBox1")
         Me.GroupBox1.Controls.Add(Me.sys_32)
         Me.GroupBox1.Controls.Add(Me.sys_64)
         Me.GroupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        resources.ApplyResources(Me.GroupBox1, "GroupBox1")
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.TabStop = False
         '
         'GroupBox2
         '
-        resources.ApplyResources(Me.GroupBox2, "GroupBox2")
         Me.GroupBox2.Controls.Add(Me.lng_zh)
         Me.GroupBox2.Controls.Add(Me.lng_en)
         Me.GroupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        resources.ApplyResources(Me.GroupBox2, "GroupBox2")
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.TabStop = False
         '
@@ -205,16 +205,16 @@ Partial Class Main_Installer
         '
         'Btn_Back
         '
-        resources.ApplyResources(Me.Btn_Back, "Btn_Back")
         Me.Btn_Back.BackColor = System.Drawing.Color.FromArgb(CType(CType(164, Byte), Integer), CType(CType(176, Byte), Integer), CType(CType(190, Byte), Integer))
+        resources.ApplyResources(Me.Btn_Back, "Btn_Back")
         Me.Btn_Back.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Btn_Back.Name = "Btn_Back"
         Me.Btn_Back.UseVisualStyleBackColor = False
         '
         'PictureBox4
         '
-        resources.ApplyResources(Me.PictureBox4, "PictureBox4")
         Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
+        resources.ApplyResources(Me.PictureBox4, "PictureBox4")
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.TabStop = False
         '
@@ -241,29 +241,29 @@ Partial Class Main_Installer
         '
         'PictureBox3
         '
-        resources.ApplyResources(Me.PictureBox3, "PictureBox3")
         Me.PictureBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
+        resources.ApplyResources(Me.PictureBox3, "PictureBox3")
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.TabStop = False
         '
         'Btn_Exit
         '
-        resources.ApplyResources(Me.Btn_Exit, "Btn_Exit")
         Me.Btn_Exit.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
+        resources.ApplyResources(Me.Btn_Exit, "Btn_Exit")
         Me.Btn_Exit.Name = "Btn_Exit"
         Me.Btn_Exit.TabStop = False
         '
         'PictureBox5
         '
-        resources.ApplyResources(Me.PictureBox5, "PictureBox5")
         Me.PictureBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
+        resources.ApplyResources(Me.PictureBox5, "PictureBox5")
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.TabStop = False
         '
         'PictureBox2
         '
-        resources.ApplyResources(Me.PictureBox2, "PictureBox2")
         Me.PictureBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
+        resources.ApplyResources(Me.PictureBox2, "PictureBox2")
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.TabStop = False
         '

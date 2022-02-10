@@ -51,44 +51,44 @@ Partial Class Sub_Startup
         '
         'Btn_install
         '
-        Me.Btn_install.BackColor = System.Drawing.Color.White
         resources.ApplyResources(Me.Btn_install, "Btn_install")
+        Me.Btn_install.BackColor = System.Drawing.Color.White
         Me.Btn_install.ForeColor = System.Drawing.Color.Black
         Me.Btn_install.Name = "Btn_install"
         Me.Btn_install.UseVisualStyleBackColor = False
         '
         'Btn_Troubleshooting
         '
-        Me.Btn_Troubleshooting.BackColor = System.Drawing.Color.White
         resources.ApplyResources(Me.Btn_Troubleshooting, "Btn_Troubleshooting")
+        Me.Btn_Troubleshooting.BackColor = System.Drawing.Color.White
         Me.Btn_Troubleshooting.ForeColor = System.Drawing.Color.Black
         Me.Btn_Troubleshooting.Name = "Btn_Troubleshooting"
         Me.Btn_Troubleshooting.UseVisualStyleBackColor = False
         '
         'Label2
         '
-        Me.Label2.AutoEllipsis = True
         resources.ApplyResources(Me.Label2, "Label2")
+        Me.Label2.AutoEllipsis = True
         Me.Label2.Name = "Label2"
         '
         'Label5
         '
-        Me.Label5.AutoEllipsis = True
         resources.ApplyResources(Me.Label5, "Label5")
+        Me.Label5.AutoEllipsis = True
         Me.Label5.Name = "Label5"
         '
         'Btn_Uninstall
         '
-        Me.Btn_Uninstall.BackColor = System.Drawing.Color.White
         resources.ApplyResources(Me.Btn_Uninstall, "Btn_Uninstall")
+        Me.Btn_Uninstall.BackColor = System.Drawing.Color.White
         Me.Btn_Uninstall.ForeColor = System.Drawing.Color.Black
         Me.Btn_Uninstall.Name = "Btn_Uninstall"
         Me.Btn_Uninstall.UseVisualStyleBackColor = False
         '
         'Label6
         '
-        Me.Label6.AutoEllipsis = True
         resources.ApplyResources(Me.Label6, "Label6")
+        Me.Label6.AutoEllipsis = True
         Me.Label6.Name = "Label6"
         '
         'Process1
@@ -103,8 +103,8 @@ Partial Class Sub_Startup
         '
         'PictureBox4
         '
-        Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
         resources.ApplyResources(Me.PictureBox4, "PictureBox4")
+        Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.TabStop = False
         '
@@ -116,22 +116,22 @@ Partial Class Sub_Startup
         '
         'Label3
         '
-        Me.Label3.AutoEllipsis = True
         resources.ApplyResources(Me.Label3, "Label3")
+        Me.Label3.AutoEllipsis = True
         Me.Label3.Name = "Label3"
         '
         'PictureBox2
         '
-        Me.PictureBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
         resources.ApplyResources(Me.PictureBox2, "PictureBox2")
+        Me.PictureBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.TabStop = False
         '
         'PictureBox1
         '
+        resources.ApplyResources(Me.PictureBox1, "PictureBox1")
         Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Default
-        resources.ApplyResources(Me.PictureBox1, "PictureBox1")
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.TabStop = False
         '
@@ -143,15 +143,15 @@ Partial Class Sub_Startup
         '
         'Btn_exit
         '
-        Me.Btn_exit.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
         resources.ApplyResources(Me.Btn_exit, "Btn_exit")
+        Me.Btn_exit.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
         Me.Btn_exit.Name = "Btn_exit"
         Me.Btn_exit.TabStop = False
         '
         'PictureBox5
         '
-        Me.PictureBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
         resources.ApplyResources(Me.PictureBox5, "PictureBox5")
+        Me.PictureBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(140, Byte), Integer))
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.TabStop = False
         '
@@ -163,8 +163,8 @@ Partial Class Sub_Startup
         '
         'Label4
         '
-        Me.Label4.AutoEllipsis = True
         resources.ApplyResources(Me.Label4, "Label4")
+        Me.Label4.AutoEllipsis = True
         Me.Label4.Name = "Label4"
         '
         'Sub_Startup
